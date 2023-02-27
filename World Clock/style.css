@@ -69,13 +69,22 @@ body {
 }
 
 .hand--hour {
-  transform: rotate(45deg);
   stroke-width: 5;
   stroke: var(--white);
 }
 
 .hand--minute {
   stroke: var(--purple);
-  transform: rotate(90deg);
   stroke-width: 5;
+}
+
+.date {
+  fill: var(--white);
+  font-size: 1.5rem;
+}
+
+.am-pm {
+  fill: var(--pink);
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
